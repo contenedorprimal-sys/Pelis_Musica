@@ -1,0 +1,50 @@
+{
+  "metricas": [
+    {
+      "modelo": "Naive Bayes (MultinomialNB)",
+      "accuracy": 0.3333,
+      "precision": 0.1111,
+      "recall": 0.3333,
+      "f1_score": 0.1667,
+      "cv_f1_mean": 0.2302,
+      "cv_f1_std": 0.0736
+    },
+    {
+      "modelo": "SVM (LinearSVC)",
+      "accuracy": 0.3333,
+      "precision": 0.2778,
+      "recall": 0.3333,
+      "f1_score": 0.3,
+      "cv_f1_mean": 0.2143,
+      "cv_f1_std": 0.1241
+    },
+    {
+      "modelo": "K-Nearest Neighbors (KNN)",
+      "accuracy": 0.1667,
+      "precision": 0.0667,
+      "recall": 0.1667,
+      "f1_score": 0.0952,
+      "cv_f1_mean": 0.1556,
+      "cv_f1_std": 0.048
+    },
+    {
+      "modelo": "Random Forest",
+      "accuracy": 0.3333,
+      "precision": 0.2778,
+      "recall": 0.3333,
+      "f1_score": 0.3,
+      "cv_f1_mean": 0.2169,
+      "cv_f1_std": 0.1398
+    },
+    {
+      "modelo": "Red Neuronal (MLPClassifier)",
+      "accuracy": 0.6667,
+      "precision": 0.5,
+      "recall": 0.6667,
+      "f1_score": 0.5556,
+      "cv_f1_mean": 0.1926,
+      "cv_f1_std": 0.0999
+    }
+  ],
+  "mejor_modelo": "Red Neuronal (MLPClassifier)"
+}
